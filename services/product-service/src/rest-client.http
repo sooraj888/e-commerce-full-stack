@@ -1,0 +1,23 @@
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/{id}
+
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "productName": "123",
+  "category" : "1"
+}
+
+###
+PUT http://localhost:3000/products/{id}
+{
+  "name": "string",
+  "description": "string",
+  "price": 0,
+  "category": "string"
+}
+
