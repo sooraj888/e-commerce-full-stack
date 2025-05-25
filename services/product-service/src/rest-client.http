@@ -21,3 +21,10 @@ PUT http://localhost:3000/products/{id}
   "category": "string"
 }
 
+###
+POST http://localhost:3000/graphql
+Content-Type: application/json
+
+{
+  "query": "mutation { createProduct(input: { name: \"Test\", description: \"Desc\", price: 20.0 }) { id name } }"
+}

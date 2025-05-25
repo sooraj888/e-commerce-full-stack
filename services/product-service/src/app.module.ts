@@ -6,19 +6,32 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { join } from 'path';
 
-import { ProductResolver } from './product.resolver';
 import { ProductsModule } from './products/products.module';
+import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
+    ConfigModule.forRoot({ isGlobal: true }), // Loads .env globally
+
+    MongooseModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: async (config: ConfigService) => ({
+        uri: config.get<string>('MONGO_URI'),
+      }),
+      inject: [ConfigService],
+    }),
+
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'), // Generates schema.gql automatically
-      playground: true, // Enables the GraphQL Playground
+      playground: false, // Enables the GraphQL Playground
+      plugins: [ApolloServerPluginLandingPageLocalDefault()],
     }),
     ProductsModule,
   ],
   controllers: [AppController],
-  providers: [AppService, ProductResolver],
+  providers: [AppService],
 })
 export class AppModule {}
