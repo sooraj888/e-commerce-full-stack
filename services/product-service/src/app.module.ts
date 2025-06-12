@@ -10,6 +10,7 @@ import { ProductsModule } from './products/products.module';
 import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
+import { TestController } from './testApi/test.controller';
 
 @Module({
   imports: [
@@ -31,7 +32,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     }),
     ProductsModule,
   ],
-  controllers: [AppController],
+  controllers: [AppController, TestController],
   providers: [AppService],
 })
 export class AppModule {}
