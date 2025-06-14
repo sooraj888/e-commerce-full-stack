@@ -10,6 +10,7 @@ import {
 import { CreateTestDto } from './create-test.dto';
 import { get } from 'http';
 
+let a = 0;
 @Controller('test')
 export class TestController {
   @Post()
@@ -42,7 +43,8 @@ export class TestController {
   }
 
   @Get(':id')
-  testId(@Param() params: any): string {
-    return `This is ID endpoint ${params.id}`;
+  testId(@Param() params: any): object {
+    a++;
+    return { message: `This is ID endpoint ${a}` };
   }
 }

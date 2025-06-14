@@ -6,11 +6,13 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { join } from 'path';
 
-import { ProductsModule } from './products/products.module';
+// import { ProductsModule } from './products/products.module';
 import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { TestController } from './testApi/test.controller';
+import { AppResolver } from './AppResolver';
+import { ProductModule } from './product/product.module';
 
 @Module({
   imports: [
@@ -30,9 +32,11 @@ import { TestController } from './testApi/test.controller';
       playground: false, // Enables the GraphQL Playground
       plugins: [ApolloServerPluginLandingPageLocalDefault()],
     }),
-    ProductsModule,
+
+    ProductModule,
+    // ProductsModule,
   ],
   controllers: [AppController, TestController],
-  providers: [AppService],
+  providers: [AppService, AppResolver],
 })
 export class AppModule {}
