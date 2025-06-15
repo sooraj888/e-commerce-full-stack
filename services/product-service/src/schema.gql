@@ -3,31 +3,23 @@
 # ------------------------------------------------------
 
 type Product {
-  id: String!
+  id: Int!
   name: String!
-  description: String
-  price: Int!
+  description: String!
+  price: Float!
   quantity: Int!
   imageUrl: String
-  isAvailable: Boolean!
   category: String
-  createdAt: DateTime!
-  updatedAt: DateTime!
 }
-
-"""
-A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
-"""
-scalar DateTime
 
 type Query {
   defaultResolver: String!
+  products: [Product!]!
   product(id: Int!): Product!
 }
 
 type Mutation {
   createProduct(createProductInput: CreateProductInput!): Product!
-  updateProduct(updateProductInput: UpdateProductInput!): Product!
   removeProduct(id: Int!): Product!
 }
 
@@ -37,16 +29,5 @@ input CreateProductInput {
   price: Float!
   quantity: Int!
   imageUrl: String
-  category: String
-}
-
-input UpdateProductInput {
-  id: String!
-  name: String
-  description: String
-  price: Float
-  quantity: Int
-  imageUrl: String
-  isAvailable: Boolean
   category: String
 }

@@ -28,3 +28,7 @@ Content-Type: application/json
 {
   "query": "mutation { createProduct(input: { name: \"Test\", description: \"Desc\", price: 20.0 }) { id name } }"
 }
+
+
+###
+GET http://localhost:3000/
