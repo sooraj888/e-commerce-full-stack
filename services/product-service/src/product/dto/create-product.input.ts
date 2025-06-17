@@ -14,8 +14,8 @@ export class CreateProductInput {
   @Field(() => Int)
   quantity: number;
 
-  @Field({ nullable: true })
-  imageUrl?: string;
+  @Field(() => [String])
+  imageUrls: Array<string>;
 
   @Field({ nullable: true })
   category?: string;

@@ -13,6 +13,20 @@ model Product {
   description String
   price       Float
   quantity    Int
-  imageUrl    String?
+  imageUrls    String[]
   category    String?
+  sku String? @unique
+  isActive Boolean @default(true)
+  discount     Float?
+  isOutOfStock Boolean @default(false)
+  tags String[]
+  brand String?
+  slug String? @unique
+  colorOptions String[]
+  publishedAt DateTime?
+  deletedAt DateTime?
+  averageRating Float? @default(0.0)
+  totalReviews  Int?   @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime? @updatedAt
 }
