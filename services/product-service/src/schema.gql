@@ -27,6 +27,21 @@ A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date
 """
 scalar DateTime
 
+type User {
+  id: Int!
+  email: String!
+  name: String!
+  role: Role!
+  profileImage: String!
+  password: String!
+}
+
+"""User roles"""
+enum Role {
+  USER
+  ADMIN
+}
+
 type Query {
   defaultResolver: String!
   products: [Product!]!
@@ -36,6 +51,7 @@ type Query {
 type Mutation {
   createProduct(createProductInput: CreateProductInput!): Product!
   removeProduct(id: Int!): Product!
+  createUser(createUserInput: UserCreateInput!): User!
 }
 
 input CreateProductInput {
@@ -45,4 +61,12 @@ input CreateProductInput {
   quantity: Int!
   imageUrls: [String!]!
   category: String
+}
+
+input UserCreateInput {
+  email: String!
+  name: String!
+  role: Role!
+  profileImage: String!
+  password: String!
 }

@@ -30,3 +30,17 @@ model Product {
   createdAt DateTime @default(now())
   updatedAt DateTime? @updatedAt
 }
+
+model User {
+  id Int @id @default(autoincrement())
+  email String @unique
+  name String?
+  role Role @default(USER)
+  profileImage String? 
+  password String
+}
+
+enum Role {
+  USER
+  ADMIN
+}

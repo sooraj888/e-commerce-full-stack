@@ -11,6 +11,7 @@ import { TestController } from './testApi/test.controller';
 import { AppResolver } from './AppResolver';
 import { ProductModule } from './product/product.module';
 import { PrismaService } from './prisma/prisma.service';
+import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
@@ -22,6 +23,7 @@ import { PrismaService } from './prisma/prisma.service';
       plugins: [ApolloServerPluginLandingPageLocalDefault()],
     }),
     ProductModule,
+    UserModule,
   ],
   controllers: [AppController, TestController],
   providers: [AppService, AppResolver],
