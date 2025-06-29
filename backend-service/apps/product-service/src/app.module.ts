@@ -10,8 +10,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TestController } from './testApi/test.controller';
 import { AppResolver } from './AppResolver';
 import { ProductModule } from './product/product.module';
-import { PrismaService } from './prisma/prisma.service';
 import { UserModule } from './user/user.module';
+import { ClientsModule, Transport } from '@nestjs/microservices';
 
 @Module({
   imports: [
@@ -22,6 +22,9 @@ import { UserModule } from './user/user.module';
       playground: false, // Enables the GraphQL Playground
       plugins: [ApolloServerPluginLandingPageLocalDefault()],
     }),
+    ClientsModule.register([
+      { name: 'auth-service', transport: Transport.TCP },
+    ]),
     ProductModule,
     UserModule,
   ],
