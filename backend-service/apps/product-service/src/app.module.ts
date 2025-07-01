@@ -24,6 +24,7 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'), // Generates schema.gql automatically
       playground: false, // Enables the GraphQL Playground
       // plugins: [ApolloServerPluginLandingPageLocalDefault()],
+      introspection: true,
       plugins: [
         // Install a landing page plugin based on NODE_ENV
         process.env.NODE_ENV === 'production'
