@@ -8,7 +8,7 @@ export class AppController {
 
   @Client({
     transport: Transport.TCP,
-    options: { host: 'localhost', port: 3001 },
+    options: { host: 'auth-service', port: 3001 },
   })
   client: ClientProxy;
 
