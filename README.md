@@ -18,7 +18,9 @@ Lets get started by creating this README.md file inside root of this project for
 
 ## Monorepo Architecture
 
-To create and manage multiple application in one repository efficiently we are using a tool called [TurboRepo][turborepo].
+To create and manage multiple JS applications in one repository efficiently we are using a tool called [TurboRepo][turborepo].
+
+Setup monorepo with Turborepo click [here](turborepo.md).
 
 <!-- Links  -->
 
