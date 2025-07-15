@@ -1,5 +1,5 @@
 {
-  "name": "onerepo",
+  "name": "e-commerce-full-stack",
   "private": true,
   "scripts": {
     "build": "turbo run build",
