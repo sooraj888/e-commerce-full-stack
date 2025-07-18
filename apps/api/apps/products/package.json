@@ -1,7 +1,0 @@
-{
-  "name": "products",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "nest start products --watch"
-  }
-}
