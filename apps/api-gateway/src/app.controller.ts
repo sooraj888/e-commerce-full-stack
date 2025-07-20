@@ -8,7 +8,11 @@ export class AppController {
 
   @Client({
     transport: Transport.TCP,
-    options: { port: 3002, host: 'localhost' },
+    options: {
+      port: 3002,
+      host: 'auth',
+    },
+    //process.env.NODE_ENV === 'production' ? 'localhost' :
   })
   client: ClientProxy;
 

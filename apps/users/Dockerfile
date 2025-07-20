@@ -2,7 +2,7 @@ FROM node:lts-alpine AS pruner
 WORKDIR /app
 RUN npm i -g pnpm turbo
 COPY . .
-RUN turbo prune --scope=admin --docker
+RUN turbo prune --scope=users --docker
 
 FROM node:lts-alpine AS installer
 WORKDIR /app
@@ -21,7 +21,8 @@ RUN rm -rf node_modules && pnpm install --frozen-lockfile --prod
 FROM node:lts-alpine AS runner
 WORKDIR /app 
 COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/apps/admin/dist ./apps/admin/dist
-COPY --from=builder /app/apps/admin/node_modules ./apps/admin/node_modules
-CMD ["node","apps/admin/dist/src/main.js"]
-EXPOSE 3005
+COPY --from=builder /app/apps/users/dist ./apps/users/dist
+COPY --from=builder /app/apps/users/node_modules ./apps/users/node_modules
+CMD ["node","apps/users/dist/src/main.js"]
+
+EXPOSE 3004
