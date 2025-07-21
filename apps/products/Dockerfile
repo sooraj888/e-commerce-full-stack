@@ -15,6 +15,11 @@ FROM node:lts-alpine AS builder
 WORKDIR /app
 COPY --from=installer /app/ .
 COPY --from=pruner /app/out/full .
+ARG TURBO_TOKEN
+ARG TURBO_TEAM
+
+ENV TURBO_TOKEN=$TURBO_TOKEN
+ENV TURBO_TEAM=$TURBO_TEAM
 RUN npm i -g pnpm && pnpm build
 RUN rm -rf node_modules && pnpm install --frozen-lockfile --prod 
 
