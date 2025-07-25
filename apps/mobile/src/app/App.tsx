@@ -28,7 +28,7 @@ export const App = () => {
         console.log('data:', JSON.stringify(data));
       })
       .catch((error) => {
-        console.log('Error fetching data:', JSON.stringify(error));
+        console.error('Error fetching data:', JSON.stringify(error));
       });
   }, []);
 

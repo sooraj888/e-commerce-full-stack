@@ -1,5 +1,5 @@
 {
-  "name": "@ecom/web",
+  "name": "@ecom/webapp",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

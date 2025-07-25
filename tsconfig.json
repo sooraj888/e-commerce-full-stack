@@ -10,10 +10,10 @@
       "path": "./apps/mobile"
     },
     {
-      "path": "./apps/web-e2e"
+      "path": "./apps/webapp-e2e"
     },
     {
-      "path": "./apps/web"
+      "path": "./apps/webapp"
     }
   ]
 }

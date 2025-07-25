@@ -1,6 +1,3 @@
-'use client';
-
-import { useEffect, useState } from 'react';
 import styles from './page.module.css';
 
 export default function Index() {
@@ -9,29 +6,14 @@ export default function Index() {
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
-
-  const [data, setData] = useState<any>(null);
-  useEffect(() => {
-    // Fetch data from the API
-    fetch('http://localhost:3001') // Adjust the URL as needed
-      .then((data) => data.json())
-      .then((data) => {
-        setData(data);
-        console.log('Data fetched:', data);
-      })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
-
   return (
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
             <h1>
-              <span> Hello Sooraj, {JSON.stringify(data)} </span>
-              Welcome @ecom/web 👋
+              <span> Hello there, </span>
+              Welcome @ecom/webapp 👋
             </h1>
           </div>
 
@@ -415,7 +397,7 @@ export default function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project @ecom/web --web</pre>
+              <pre>nx show project @ecom/webapp --web</pre>
             </details>
             <details>
               <summary>
