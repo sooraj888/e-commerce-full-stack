@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./out-tsc/jest",
     "jsx": "preserve",
-    "types": ["jest", "node"]
+    "types": ["jest", "node", "@testing-library/jest-dom"]
   },
   "include": [
     "jest.config.ts",
@@ -15,8 +15,11 @@
     "src/**/*.spec.js",
     "src/**/*.test.jsx",
     "src/**/*.spec.jsx",
-    "src/**/*.d.ts"
+    "src/**/*.d.ts",
+    "src/**/jest.d.ts",
+    "jest.d.ts"
   ],
+  "setupFilesAfterEnv": ["<rootDir>/test-setup.ts"],
   "references": [
     {
       "path": "./tsconfig.json"

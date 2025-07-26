@@ -73,5 +73,13 @@
         "linter": "eslint"
       }
     }
+  },
+  "projects": {
+    "webapp": {
+      "tags": [],
+      "root": "apps/webapp",
+      "sourceRoot": "apps/webapp/src",
+      "projectType": "application"
+    }
   }
 }
