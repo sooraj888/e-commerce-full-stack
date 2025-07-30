@@ -1,0 +1,9 @@
+packages:
+  - 'apps/**'
+  - 'libs/**'
+
+neverHoist:
+  - 'react'
+  - 'react-dom'
+  - '@types/react'
+  - '@types/react-dom'
