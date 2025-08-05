@@ -1,9 +1,11 @@
 packages:
-  - 'apps/**'
-  - 'libs/**'
+  - apps/*
 
-neverHoist:
-  - 'react'
-  - 'react-dom'
-  - '@types/react'
-  - '@types/react-dom'
+ignoredBuiltDependencies:
+  - '@nestjs/core'
+  - '@parcel/watcher'
+  - '@swc/core'
+  - esbuild
+  - nx
+  - sharp
+  - unrs-resolver
