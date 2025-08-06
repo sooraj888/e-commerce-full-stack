@@ -1,11 +1,4 @@
-packages:
-  - apps/*
-
 ignoredBuiltDependencies:
-  - '@nestjs/core'
-  - '@parcel/watcher'
-  - '@swc/core'
-  - esbuild
-  - nx
   - sharp
-  - unrs-resolver
+packages:
+  - 'apps/*'

@@ -2,11 +2,11 @@ import type { Config } from 'jest';
 import nextJest from 'next/jest.js';
 
 const createJestConfig = nextJest({
-  dir: './',
+  dir: './apps/web',
 });
 
 const config: Config = {
-  displayName: 'ecomwebapp',
+  displayName: 'web',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',

@@ -1,9 +1,17 @@
 {
-  "name": "ecomwebapp",
+  "name": "web",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/web",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project ecomwebapp --web",
-  "targets": {}
+  "// targets": "to see all targets run: nx show project web --web",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "options": {
+        "jestConfig": "apps/web/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
 }

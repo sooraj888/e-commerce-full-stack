@@ -24,7 +24,7 @@ export default defineConfig({
   },
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'pnpm exec nx run ecomwebapp:start',
+    command: 'pnpm exec nx run web:start',
     url: 'http://localhost:3000',
     reuseExistingServer: true,
     cwd: workspaceRoot,
