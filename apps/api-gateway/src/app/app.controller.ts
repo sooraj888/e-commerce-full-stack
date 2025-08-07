@@ -9,4 +9,9 @@ export class AppController {
   getData() {
     return this.appService.getData();
   }
+  @Get('sdajfjgsdfjgashdg')
+  healthCheck() {
+    console.log('Health check endpoint hit');
+    return { status: 'okdddddddfbsdnmfmsbmnfmdddd' };
+  }
 }

@@ -35,6 +35,19 @@
         }
       }
     },
+    "dev": {
+      "executor": "@nx/js:node",
+      "options": {
+        "buildTarget": "api-gateway:build",
+        "watch": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "api-gateway:build:development",
+          "watch": true
+        }
+      }
+    },
     "test": {
       "options": {
         "passWithNoTests": true
