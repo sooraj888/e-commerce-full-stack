@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev:ecomapp",
+      "type": "shell",
+      "command": "nx run ecomapp:dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:web",
+      "type": "shell",
+      "command": "nx run web:dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:api-gateway",
+      "type": "shell",
+      "command": "nx run api-gateway:dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:all",
+      "dependsOn": ["dev:ecomapp", "dev:web", "dev:api-gateway"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    }
+  ]
+}
