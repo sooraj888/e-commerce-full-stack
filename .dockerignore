@@ -1,0 +1,66 @@
+# --------------------
+# Node / Nx / Pnpm
+# --------------------
+node_modules
+**/node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+.pnpm-store
+.cache
+.tmp
+tmp
+dist
+build
+
+# Nx cache
+.nx
+.cache
+
+# --------------------
+# Git / IDEs
+# --------------------
+.git
+.gitignore
+.idea
+.vscode
+*.swp
+
+# --------------------
+# OS generated
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs
+# --------------------
+*.log
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# --------------------
+# React Native specific
+# --------------------
+apps/mobile
+**/android
+**/ios
+**/build
+**/fastlane
+**/Pods
+**/*.keystore
+**/*.jks
+
+# --------------------
+# Next.js specific (we only copy .next after build)
+# --------------------
+**/.next/cache
+
+# --------------------
+# Env files (never include in image)
+# --------------------
+.env
+.env.*
+!.env.example
