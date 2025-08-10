@@ -57,6 +57,7 @@ apps/mobile
 # Next.js specific (we only copy .next after build)
 # --------------------
 **/.next/cache
+.next
 
 # --------------------
 # Env files (never include in image)
@@ -64,3 +65,14 @@ apps/mobile
 .env
 .env.*
 !.env.example
+
+# --------------------
+# Miscellaneous
+# --------------------
+.DS_Store
+coverage
+.vscode/
+.idea/
+*.iml
+*.lock
+.pnpm-debug.log
