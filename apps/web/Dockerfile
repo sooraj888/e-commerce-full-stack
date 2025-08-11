@@ -20,7 +20,7 @@ ENV NODE_ENV=production
 ENV PORT = 3000
 ENV HOSTNAME=0.0.0.0
 # Copy only built output for web
-COPY --from=build /app/dist/apps/web/.next/standalone ./
+COPY --from=build /app/apps/web/.next/standalone ./
 
 # Start web service
 EXPOSE 3000

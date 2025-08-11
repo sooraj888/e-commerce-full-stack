@@ -12,14 +12,6 @@
         "jestConfig": "apps/web/jest.config.ts",
         "passWithNoTests": true
       }
-    },
-    "build": {
-      "executor": "@nx/next:build",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "dist/apps/web"
-      },
-      "inputs": ["default", "^default"]
     }
   }
 }
