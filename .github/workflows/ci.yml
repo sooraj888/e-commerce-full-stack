@@ -39,7 +39,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
       # Install Playwright browsers for CI
-      - run: npx playwright install --with-deps
+      - run: pnpm exec playwright install --with-deps
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: pnpm exec nx-cloud record -- echo Hello World
       - run: pnpm exec nx run-many -t test lint build e2e -p web* api-gateway*
