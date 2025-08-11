@@ -9,6 +9,7 @@ COPY . .
 # Install deps & build only web app
 RUN pnpm install --frozen-lockfile
 RUN pnpm nx reset
+ENV NEXT_OUTPUT_MODE=standalone
 RUN pnpm nx build web --prod 
 RUN pnpm store prune
 
