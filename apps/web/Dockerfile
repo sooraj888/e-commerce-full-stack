@@ -17,12 +17,17 @@ RUN pnpm store prune
 FROM node:20-alpine AS production
 WORKDIR /app
 ENV NODE_ENV=production
-ENV PORT = 3000
+ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
-# Copy only built output for web
+
+# Copy standalone server build
 COPY --from=build /app/apps/web/.next/standalone ./
 
-# Start web service
-EXPOSE 3000
+# ✅ Copy the static assets (CSS, JS chunks)
+COPY --from=build /app/apps/web/.next/static ./apps/web/.next/static
 
+# ✅ Copy public folder (images, fonts, etc.)
+COPY --from=build /app/apps/web/public ./apps/web/public
+
+EXPOSE 3000
 CMD ["node", "apps/web/server.js"]
