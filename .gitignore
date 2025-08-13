@@ -94,3 +94,6 @@ yarn-error.log
 
 # Mac
 *.DS_Store
+
+# Environment variables
+.env

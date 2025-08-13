@@ -2,3 +2,4 @@ ignoredBuiltDependencies:
   - sharp
 packages:
   - 'apps/*'
+  - 'libs/*'
