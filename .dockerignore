@@ -76,3 +76,5 @@ coverage
 *.iml
 *.lock
 .pnpm-debug.log
+
+restclient/
