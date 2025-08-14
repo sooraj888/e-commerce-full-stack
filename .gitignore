@@ -97,3 +97,7 @@ yarn-error.log
 
 # Environment variables
 .env
+
+# GraphQL schema files
+# These files are auto-generated and should not be modified directly.
+/src/schema.gql
