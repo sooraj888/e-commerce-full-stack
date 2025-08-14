@@ -1,0 +1,13 @@
+###
+curl --request POST \
+  --header 'content-type: application/json' \
+  --url http://localhost:3001/graphql \
+  --data '{"query":"query { uptime }"}'
+
+###
+POST http://localhost:3001/graphql
+Content-Type: application/json
+
+{
+    "query": "query { uptime }"
+}
