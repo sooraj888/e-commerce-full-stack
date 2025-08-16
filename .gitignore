@@ -101,3 +101,12 @@ yarn-error.log
 # GraphQL schema files
 # These files are auto-generated and should not be modified directly.
 /src/schema.gql
+
+
+generated/
+
+# SQLite databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
