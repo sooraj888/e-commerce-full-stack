@@ -5,51 +5,19 @@ import { PrismaService, Product, Prisma } from '@myrepo/my-prisma-client';
 export class ProductService {
   constructor(private prisma: PrismaService) {}
 
-  async product(
-    productWhereUniqueInput: Prisma.ProductWhereUniqueInput
-  ): Promise<Product | null> {
-    return this.prisma.product.findUnique({
-      where: productWhereUniqueInput,
-    });
+  async findAll() {
+    return this.prisma.product.findMany();
   }
 
-  // async posts(params: {
-  //   skip?: number;
-  //   take?: number;
-  //   cursor?: Prisma.PostWhereUniqueInput;
-  //   where?: Prisma.PostWhereInput;
-  //   orderBy?: Prisma.PostOrderByWithRelationInput;
-  // }): Promise<Post[]> {
-  //   const { skip, take, cursor, where, orderBy } = params;
-  //   return this.prisma.post.findMany({
-  //     skip,
-  //     take,
-  //     cursor,
-  //     where,
-  //     orderBy,
-  //   });
-  // }
+  async findOne({ id }: { id: number }): Promise<Product | null> {
+    return this.prisma.product.findUnique({ where: { id } });
+  }
 
-  // async createPost(data: Prisma.PostCreateInput): Promise<Post> {
-  //   return this.prisma.post.create({
-  //     data,
-  //   });
-  // }
+  async create({ data }: { data: Prisma.ProductCreateInput }) {
+    return this.prisma.product.create({ data });
+  }
 
-  // async updatePost(params: {
-  //   where: Prisma.PostWhereUniqueInput;
-  //   data: Prisma.PostUpdateInput;
-  // }): Promise<Post> {
-  //   const { data, where } = params;
-  //   return this.prisma.post.update({
-  //     data,
-  //     where,
-  //   });
-  // }
-
-  // async deletePost(where: Prisma.PostWhereUniqueInput): Promise<Post> {
-  //   return this.prisma.post.delete({
-  //     where,
-  //   });
-  // }
+  async delete({ id }: { id: number }) {
+    return this.prisma.product.delete({ where: { id } });
+  }
 }

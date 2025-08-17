@@ -21,6 +21,6 @@ export class AppController {
 
   @Get('product/:id')
   async getProductById(@Param('id') id: string) {
-    return this.productService.product({ id: Number(id) });
+    return this.productService.findOne({ id: Number(id) });
   }
 }
