@@ -13,7 +13,7 @@ datasource db {
   // using sqlite for the ease of use
   // feel free to use any other supported database
   // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#fields
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_THREE_URL")
 }
 
