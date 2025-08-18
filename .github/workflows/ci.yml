@@ -42,6 +42,8 @@ jobs:
       - run: pnpm exec playwright install --with-deps
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: pnpm exec nx-cloud record -- echo Hello World
+      - run: pnpm prisma generate --schema=libs/my-prisma-schema/prisma/schema.prisma
+
       - run: pnpm exec nx run-many -t test lint build e2e -p web* api-gateway*
       # Nx Cloud recommends fixes for failures to help you get CI green faster. Learn more: https://nx.dev/ci/features/self-healing-ci
       - run: pnpm exec nx fix-ci
