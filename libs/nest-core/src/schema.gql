@@ -1,0 +1,20 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Product {
+  id: Int!
+  image: String!
+  name: String
+}
+
+type Query {
+  uptime: Float!
+  products: [Product!]!
+  product(id: Int!): Product
+}
+
+type Mutation {
+  createProduct(image: String!, name: String): Product!
+  deleteProduct(id: Int!): Product!
+}

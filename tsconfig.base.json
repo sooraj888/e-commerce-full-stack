@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myrepo/nest-core": ["libs/nest-core/src/index.ts"]
+      "@myrepo/data-access-product": ["libs/data-access-product/src/index.ts"],
+      "@myrepo/my-prisma-client": ["libs/my-prisma-client/src/index.ts"],
+      "@myrepo/nest-core": ["libs/nest-core/src/index.ts"],
+      "@myrepo/prisma-client-three": ["libs/my-prisma-schema/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -49,8 +49,11 @@
       }
     },
     "test": {
+      "executor": "@nx/jest:jest",
       "options": {
-        "passWithNoTests": true
+        "jestConfig": "apps/api-gateway/jest.config.ts",
+        "passWithNoTests": true,
+        "runInBand": true
       }
     }
   }
