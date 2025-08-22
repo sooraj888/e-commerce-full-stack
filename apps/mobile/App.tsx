@@ -14,7 +14,8 @@ function App() {
     <View style={styles.container}>
       <StatusBar barStyle={'dark-content'} />
       <Text>
-        This is a sample React Native app using the new app screen component.
+        Welcome This is a sample React Native app using the new app screen
+        component.
       </Text>
       <NewAppScreen templateFileName="App.tsx" />
     </View>
