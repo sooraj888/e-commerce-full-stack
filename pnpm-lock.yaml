@@ -156,9 +156,15 @@ importers:
       '@testing-library/dom':
         specifier: 10.4.0
         version: 10.4.0
+      '@testing-library/jest-native':
+        specifier: ^5.4.3
+        version: 5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))(react-test-renderer@19.1.0(react@19.0.0))(react@19.0.0)
       '@testing-library/react':
         specifier: 16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@testing-library/react-native':
+        specifier: ^13.3.0
+        version: 13.3.0(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))(react-test-renderer@19.1.0(react@19.0.0))(react@19.0.0)
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -178,7 +184,7 @@ importers:
         specifier: 10.4.13
         version: 10.4.13(postcss@8.4.38)
       babel-jest:
-        specifier: ^30.0.2
+        specifier: ^30.0.5
         version: 30.0.5(@babel/core@7.28.3)
       eslint:
         specifier: ^9.8.0
@@ -205,7 +211,7 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(eslint@9.33.0(jiti@2.5.1))
       jest:
-        specifier: ^30.0.2
+        specifier: ^30.0.5
         version: 30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))
       jest-environment-jsdom:
         specifier: ^30.0.2
@@ -213,6 +219,9 @@ importers:
       jest-environment-node:
         specifier: ^30.0.2
         version: 30.0.5
+      jest-react-native:
+        specifier: ^18.0.0
+        version: 18.0.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))
       jest-util:
         specifier: ^30.0.2
         version: 30.0.5
@@ -264,6 +273,13 @@ importers:
       react-native:
         specifier: 0.80.2
         version: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0)
+    devDependencies:
+      '@testing-library/jest-native':
+        specifier: ^5.4.3
+        version: 5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)
+      '@testing-library/react-native':
+        specifier: ^13.3.0
+        version: 13.3.0(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)
 
   libs/nest-core:
     dependencies:
@@ -2926,6 +2942,30 @@ packages:
     resolution: {integrity: sha512-pemlzrSESWbdAloYml3bAJMEfNh1Z7EduzqPKprCH5S341frlpYnUEW0H72dLxa6IsYr+mPno20GiSm+h9dEdQ==}
     engines: {node: '>=18'}
 
+  '@testing-library/jest-native@5.4.3':
+    resolution: {integrity: sha512-/sSDGaOuE+PJ1Z9Kp4u7PQScSVVXGud59I/qsBFFJvIbcn4P6yYw6cBnBmbPF+X9aRIsTJRDl6gzw5ZkJNm66w==}
+    deprecated: |-
+      DEPRECATED: This package is no longer maintained.
+      Please use the built-in Jest matchers available in @testing-library/react-native v12.4+.
+
+      See migration guide: https://callstack.github.io/react-native-testing-library/docs/migration/jest-matchers
+    peerDependencies:
+      react: '>=16.0.0'
+      react-native: '>=0.59'
+      react-test-renderer: '>=16.0.0'
+
+  '@testing-library/react-native@13.3.0':
+    resolution: {integrity: sha512-6zBcjzweMZ6w4pvVtHrcv+FuTr3lC91UAKobcsOt4YTopCGee+xq9g1bP7W+OksSVpp71fkOm/I5stjU+UPLPw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      jest: '>=29.0.0'
+      react: '>=18.2.0'
+      react-native: '>=0.71'
+      react-test-renderer: '>=18.2.0'
+    peerDependenciesMeta:
+      jest:
+        optional: true
+
   '@testing-library/react@16.1.0':
     resolution: {integrity: sha512-Q2ToPvg0KsVL0ohND9A3zLJWcOXXcO8IDu3fj11KhNt0UlCWyFyvnCIBkd12tidB2lkiVRG8VFqdhcqhqnAQtg==}
     engines: {node: '>=18'}
@@ -4589,6 +4629,10 @@ packages:
   didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
 
+  diff-sequences@29.6.3:
+    resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   diff@4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
@@ -5640,6 +5684,10 @@ packages:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
 
+  indent-string@4.0.0:
+    resolution: {integrity: sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==}
+    engines: {node: '>=8'}
+
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
@@ -5981,6 +6029,10 @@ packages:
       ts-node:
         optional: true
 
+  jest-diff@29.7.0:
+    resolution: {integrity: sha512-LMIgiIrhigmPrs03JHpxUh2yISK3vLFPkAodPeo0+BuF7wA2FoQbkEg1u8gBYBThncu7e1oEDUfIXVuTqLRUjw==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   jest-diff@30.0.5:
     resolution: {integrity: sha512-1UIqE9PoEKaHcIKvq2vbibrCog4Y8G0zmOxgQUVEiTqwR5hJVMCoDsN1vFvI5JvwD37hjueZ1C4l2FyGnfpE0A==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
@@ -6026,6 +6078,10 @@ packages:
     resolution: {integrity: sha512-3Uxr5uP8jmHMcsOtYMRB/zf1gXN3yUIc+iPorhNETG54gErFIiUhLvyY/OggYpSMOEYqsmRxmuU4ZOoX5jpRFg==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
+  jest-matcher-utils@29.7.0:
+    resolution: {integrity: sha512-sBkD+Xi9DtcChsI3L3u0+N0opgPYnCRPtGcQYrgXmR+hmt/fYfWAL0xRXYU8eWOdfuLgBe0YCW3AFtnRLagq/g==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   jest-matcher-utils@30.0.5:
     resolution: {integrity: sha512-uQgGWt7GOrRLP1P7IwNWwK1WAQbq+m//ZY0yXygyfWp0rJlksMSLQAA4wYQC3b6wl3zfnchyTx+k3HZ5aPtCbQ==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
@@ -6054,6 +6110,11 @@ packages:
     peerDependenciesMeta:
       jest-resolve:
         optional: true
+
+  jest-react-native@18.0.0:
+    resolution: {integrity: sha512-BPL0WBX1kx+qo4KB92o82pcq4uFXH6gmYtN7DDj+etMK6pvtWwPFWpvT9JHmaS96wP5Xf9Vq2ilAxXycgHeMog==}
+    peerDependencies:
+      react-native: '>=0.38.0'
 
   jest-regex-util@29.6.3:
     resolution: {integrity: sha512-KJJBsRCyyLNWCNBOvZyRDnAIfUiRJ8v+hOBQYGn8gDyF3UegwiP4gwRR3/SDa42g1YbVycTidUF3rKjyLFDWbg==}
@@ -6583,6 +6644,10 @@ packages:
   mimic-response@4.0.0:
     resolution: {integrity: sha512-e5ISH9xMYU0DzrT+jl8q2ze9D6eWBto+I8CNpe+VI+K2J/F/k3PdkdTdz4wvGVH4NTpo+NRYTVIuMQEMMcsLqg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  min-indent@1.0.1:
+    resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
+    engines: {node: '>=4'}
 
   mini-css-extract-plugin@2.4.7:
     resolution: {integrity: sha512-euWmddf0sk9Nv1O0gfeeUAvAkoSlWncNLF77C0TP2+WoPvy8mAHKOzMajcCz2dzvyt3CNgxb1obIEVFIRxaipg==}
@@ -7498,6 +7563,10 @@ packages:
     resolution: {integrity: sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==}
     engines: {node: '>= 10.13.0'}
 
+  redent@3.0.0:
+    resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==}
+    engines: {node: '>=8'}
+
   reflect-metadata@0.1.14:
     resolution: {integrity: sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==}
 
@@ -8145,6 +8214,10 @@ packages:
   strip-final-newline@2.0.0:
     resolution: {integrity: sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==}
     engines: {node: '>=6'}
+
+  strip-indent@3.0.0:
+    resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
+    engines: {node: '>=8'}
 
   strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
@@ -12139,6 +12212,15 @@ snapshots:
 
   '@react-native/typescript-config@0.80.2': {}
 
+  '@react-native/virtualized-lists@0.80.2(@types/react@19.0.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      invariant: 2.2.4
+      nullthrows: 1.1.1
+      react: 19.0.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0)
+    optionalDependencies:
+      '@types/react': 19.0.0
+
   '@react-native/virtualized-lists@0.80.2(@types/react@19.0.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0))(react@19.1.0)':
     dependencies:
       invariant: 2.2.4
@@ -12444,6 +12526,52 @@ snapshots:
       dom-accessibility-api: 0.5.16
       lz-string: 1.5.0
       pretty-format: 27.5.1
+
+  '@testing-library/jest-native@5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))(react-test-renderer@19.1.0(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      chalk: 4.1.2
+      jest-diff: 29.7.0
+      jest-matcher-utils: 29.7.0
+      pretty-format: 29.7.0
+      react: 19.0.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0)
+      react-test-renderer: 19.1.0(react@19.0.0)
+      redent: 3.0.0
+
+  '@testing-library/jest-native@5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      chalk: 4.1.2
+      jest-diff: 29.7.0
+      jest-matcher-utils: 29.7.0
+      pretty-format: 29.7.0
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0)
+      react-test-renderer: 19.1.0(react@19.1.0)
+      redent: 3.0.0
+
+  '@testing-library/react-native@13.3.0(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))(react-test-renderer@19.1.0(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      jest-matcher-utils: 30.0.5
+      picocolors: 1.1.1
+      pretty-format: 30.0.5
+      react: 19.0.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0)
+      react-test-renderer: 19.1.0(react@19.0.0)
+      redent: 3.0.0
+    optionalDependencies:
+      jest: 30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))
+
+  '@testing-library/react-native@13.3.0(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      jest-matcher-utils: 30.0.5
+      picocolors: 1.1.1
+      pretty-format: 30.0.5
+      react: 19.1.0
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0)
+      react-test-renderer: 19.1.0(react@19.1.0)
+      redent: 3.0.0
+    optionalDependencies:
+      jest: 30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))
 
   '@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
@@ -14288,6 +14416,8 @@ snapshots:
 
   didyoumean@1.2.2: {}
 
+  diff-sequences@29.6.3: {}
+
   diff@4.0.2: {}
 
   dir-glob@3.0.1:
@@ -15627,6 +15757,8 @@ snapshots:
 
   imurmurhash@0.1.4: {}
 
+  indent-string@4.0.0: {}
+
   inflight@1.0.6:
     dependencies:
       once: 1.4.0
@@ -16002,6 +16134,13 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
+  jest-diff@29.7.0:
+    dependencies:
+      chalk: 4.1.2
+      diff-sequences: 29.6.3
+      jest-get-type: 29.6.3
+      pretty-format: 29.7.0
+
   jest-diff@30.0.5:
     dependencies:
       '@jest/diff-sequences': 30.0.1
@@ -16090,6 +16229,13 @@ snapshots:
       '@jest/get-type': 30.0.1
       pretty-format: 30.0.5
 
+  jest-matcher-utils@29.7.0:
+    dependencies:
+      chalk: 4.1.2
+      jest-diff: 29.7.0
+      jest-get-type: 29.6.3
+      pretty-format: 29.7.0
+
   jest-matcher-utils@30.0.5:
     dependencies:
       '@jest/get-type': 30.0.1
@@ -16136,6 +16282,10 @@ snapshots:
   jest-pnp-resolver@1.2.3(jest-resolve@30.0.5):
     optionalDependencies:
       jest-resolve: 30.0.5
+
+  jest-react-native@18.0.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0)):
+    dependencies:
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0)
 
   jest-regex-util@29.6.3: {}
 
@@ -16910,6 +17060,8 @@ snapshots:
   mimic-response@3.1.0: {}
 
   mimic-response@4.0.0: {}
+
+  min-indent@1.0.1: {}
 
   mini-css-extract-plugin@2.4.7(webpack@5.99.9):
     dependencies:
@@ -17786,6 +17938,53 @@ snapshots:
 
   react-is@19.1.1: {}
 
+  react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0):
+    dependencies:
+      '@jest/create-cache-key-function': 29.7.0
+      '@react-native/assets-registry': 0.80.2
+      '@react-native/codegen': 0.80.2(@babel/core@7.28.3)
+      '@react-native/community-cli-plugin': 0.80.2(@react-native-community/cli@19.1.1(typescript@5.8.3))
+      '@react-native/gradle-plugin': 0.80.2
+      '@react-native/js-polyfills': 0.80.2
+      '@react-native/normalize-colors': 0.80.2
+      '@react-native/virtualized-lists': 0.80.2(@types/react@19.0.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.0.0))(react@19.0.0)
+      abort-controller: 3.0.0
+      anser: 1.4.10
+      ansi-regex: 5.0.1
+      babel-jest: 29.7.0(@babel/core@7.28.3)
+      babel-plugin-syntax-hermes-parser: 0.28.1
+      base64-js: 1.5.1
+      chalk: 4.1.2
+      commander: 12.1.0
+      flow-enums-runtime: 0.0.6
+      glob: 7.2.3
+      invariant: 2.2.4
+      jest-environment-node: 29.7.0
+      memoize-one: 5.2.1
+      metro-runtime: 0.82.5
+      metro-source-map: 0.82.5
+      nullthrows: 1.1.1
+      pretty-format: 29.7.0
+      promise: 8.3.0
+      react: 19.0.0
+      react-devtools-core: 6.1.5
+      react-refresh: 0.14.2
+      regenerator-runtime: 0.13.11
+      scheduler: 0.26.0
+      semver: 7.7.2
+      stacktrace-parser: 0.1.11
+      whatwg-fetch: 3.6.20
+      ws: 6.2.3
+      yargs: 17.7.2
+    optionalDependencies:
+      '@types/react': 19.0.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@react-native-community/cli'
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+
   react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.0.0)(react@19.1.0):
     dependencies:
       '@jest/create-cache-key-function': 29.7.0
@@ -17841,6 +18040,12 @@ snapshots:
       react-is: 19.1.1
       scheduler: 0.26.0
 
+  react-test-renderer@19.1.0(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      react-is: 19.1.1
+      scheduler: 0.26.0
+
   react@19.0.0: {}
 
   react@19.1.0: {}
@@ -17874,6 +18079,11 @@ snapshots:
   rechoir@0.8.0:
     dependencies:
       resolve: 1.22.10
+
+  redent@3.0.0:
+    dependencies:
+      indent-string: 4.0.0
+      strip-indent: 3.0.0
 
   reflect-metadata@0.1.14: {}
 
@@ -18606,6 +18816,10 @@ snapshots:
       is-plain-obj: 1.1.0
 
   strip-final-newline@2.0.0: {}
+
+  strip-indent@3.0.0:
+    dependencies:
+      min-indent: 1.0.1
 
   strip-json-comments@3.1.1: {}
 

@@ -6,16 +6,13 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import { StatusBar, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native';
 
 function App() {
-  // "code"
-  const isDarkMode = useColorScheme() === 'dark';
-
   return (
     <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <StatusBar barStyle={'dark-content'} />
       <Text>
         This is a sample React Native app using the new app screen component.
       </Text>
