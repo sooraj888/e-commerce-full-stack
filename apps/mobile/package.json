@@ -10,11 +10,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.80.2",
     "react": "19.1.0",
-    "react-native": "0.80.2",
-    "@react-native/new-app-screen": "0.80.2"
+    "react-native": "0.80.2"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.3.0"
   }
 }
