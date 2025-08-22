@@ -40,13 +40,13 @@ importers:
         version: 16.11.0
       next:
         specifier: ~15.2.4
-        version: 15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0)
+        version: 15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0)
       react:
-        specifier: 19.1.1
-        version: 19.1.1
+        specifier: 19.1.0
+        version: 19.1.0
       react-dom:
-        specifier: 19.1.1
-        version: 19.1.1(react@19.1.1)
+        specifier: 19.1.0
+        version: 19.1.0(react@19.1.0)
       reflect-metadata:
         specifier: ^0.1.13
         version: 0.1.14
@@ -101,7 +101,7 @@ importers:
         version: 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(@zkochan/js-yaml@0.0.7)(babel-plugin-macros@3.1.0)(chokidar@4.0.3)(eslint@9.33.0(jiti@2.5.1))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))(typescript@5.8.3)
       '@nx/next':
         specifier: 21.3.11
-        version: 21.3.11(@babel/core@7.28.3)(@babel/traverse@7.28.3)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)
+        version: 21.3.11(@babel/core@7.28.3)(@babel/traverse@7.28.3)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)
       '@nx/node':
         specifier: 21.3.11
         version: 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(@zkochan/js-yaml@0.0.7)(babel-plugin-macros@3.1.0)(eslint@9.33.0(jiti@2.5.1))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))(typescript@5.8.3)
@@ -121,14 +121,14 @@ importers:
         specifier: ^1.36.0
         version: 1.55.0
       '@react-native-community/cli':
-        specifier: 19.1.1
-        version: 19.1.1(typescript@5.8.3)
+        specifier: 19.1.0
+        version: 19.1.0(typescript@5.8.3)
       '@react-native-community/cli-platform-android':
-        specifier: 19.1.1
-        version: 19.1.1
+        specifier: 19.1.0
+        version: 19.1.0
       '@react-native-community/cli-platform-ios':
-        specifier: 19.1.1
-        version: 19.1.1
+        specifier: 19.1.0
+        version: 19.1.0
       '@react-native/babel-preset':
         specifier: 0.80.2
         version: 0.80.2(@babel/core@7.28.3)
@@ -158,13 +158,13 @@ importers:
         version: 10.4.0
       '@testing-library/jest-native':
         specifier: ^5.4.3
-        version: 5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))(react-test-renderer@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)
       '@testing-library/react':
         specifier: 16.1.0
-        version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@19.1.1(@types/react@19.1.1))(@types/react@19.1.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@19.1.0(@types/react@19.1.0))(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@testing-library/react-native':
         specifier: ^13.3.0
-        version: 13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))(react-test-renderer@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -172,11 +172,11 @@ importers:
         specifier: 18.16.9
         version: 18.16.9
       '@types/react':
-        specifier: 19.1.1
-        version: 19.1.1
+        specifier: 19.1.0
+        version: 19.1.0
       '@types/react-dom':
-        specifier: 19.1.1
-        version: 19.1.1(@types/react@19.1.1)
+        specifier: 19.1.0
+        version: 19.1.0(@types/react@19.1.0)
       autoprefixer:
         specifier: 10.4.13
         version: 10.4.13(postcss@8.4.38)
@@ -218,7 +218,7 @@ importers:
         version: 30.0.5
       jest-react-native:
         specifier: ^18.0.0
-        version: 18.0.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))
+        version: 18.0.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))
       jest-util:
         specifier: ^30.0.2
         version: 30.0.5
@@ -234,6 +234,9 @@ importers:
       prisma:
         specifier: ^6.14.0
         version: 6.14.0(typescript@5.8.3)
+      react-test-renderer:
+        specifier: 19.1.0
+        version: 19.1.0(react@19.1.0)
       tailwindcss:
         specifier: 3.4.3
         version: 3.4.3(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))
@@ -260,20 +263,20 @@ importers:
     dependencies:
       '@react-native/new-app-screen':
         specifier: 0.80.2
-        version: 0.80.2(@types/react@19.1.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react@19.1.0)
+        version: 0.80.2(@types/react@19.1.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react@19.1.0)
       react:
         specifier: 19.1.0
         version: 19.1.0
       react-native:
         specifier: 0.80.2
-        version: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0)
+        version: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)
     devDependencies:
       '@testing-library/jest-native':
         specifier: ^5.4.3
-        version: 5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react-test-renderer@19.1.1(react@19.1.0))(react@19.1.0)
+        version: 5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)
       '@testing-library/react-native':
         specifier: ^13.3.0
-        version: 13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react-test-renderer@19.1.1(react@19.1.0))(react@19.1.0)
+        version: 13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)
 
   libs/nest-core:
     dependencies:
@@ -2508,41 +2511,41 @@ packages:
   '@protobufjs/utf8@1.1.0':
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
 
-  '@react-native-community/cli-clean@19.1.1':
-    resolution: {integrity: sha512-pP7SmK+PNw5B1Aa2c6y06FBNc9iGah/leFFM2uewpyZRJQ4zycX6Zz1UANpq9YZfp65n7NZKV9Gct2uaVRuP/Q==}
+  '@react-native-community/cli-clean@19.1.0':
+    resolution: {integrity: sha512-0X5/rscu0UjgQ3lc4sY5HmL/Z6FiaFANwsBZBnbaBIANzf/pnLIiry+YkhajMpstmnu8i+xZav+F3/uXqZNYIw==}
 
-  '@react-native-community/cli-config-android@19.1.1':
-    resolution: {integrity: sha512-uAUXU/BPuasBy7For5lvVEpxiwA29X5BWKjM4fgxWmsQhaZHW//6PNRep94w3WVnAp+CUbW6+o3SzFqMX0PdIw==}
+  '@react-native-community/cli-config-android@19.1.0':
+    resolution: {integrity: sha512-IlIs9iawZvvzrXsKrHGS+iGt9ixfcwmtXRSdxygQMX3po+H2T1PJnnh+Shum5ja9hw3R+cqTb4kj3YsaFo4VTQ==}
 
-  '@react-native-community/cli-config-apple@19.1.1':
-    resolution: {integrity: sha512-dKS7pg5eAEgRB8sOWYpr6XCR/3xUcttHNsuYYbuMXfY9d0M3d0oGquuMOW/p3Ri9sJI16bRAs/YIXDF2m4gYIA==}
+  '@react-native-community/cli-config-apple@19.1.0':
+    resolution: {integrity: sha512-2nJtMgWfW+YDhVcwspo3Pnnaqo/QMFUBFK1jUhI3pD5XLXnoY3jq1kb43o1Nvj1ADLewGqZnDqcSxG0Pd7P98Q==}
 
-  '@react-native-community/cli-config@19.1.1':
-    resolution: {integrity: sha512-qGLYCFf3whCa/we3iKd5BY4RlcAUhSykwGpnJpjseXLaI5iJzIn/IMd70EBG8QvhV/KQxM7VFMQj6KgGcoNKYg==}
+  '@react-native-community/cli-config@19.1.0':
+    resolution: {integrity: sha512-OHcXRwjaN6a6MVc8Y/vn9sY2xMj1eXO86GogzV0fR3Pk3Fz1Kj5lerTjY9jKkskdRbpetfpAibeSgqxJ4I838g==}
 
-  '@react-native-community/cli-doctor@19.1.1':
-    resolution: {integrity: sha512-P6JgTpa8fn6SfGiotyRhiCqBlRlKx8MUUdMESPGyPzvMb8omz+Jv0ibdNg9CVT11/0x5oRsoGv07os/o+Eg0zQ==}
+  '@react-native-community/cli-doctor@19.1.0':
+    resolution: {integrity: sha512-HtwFDTgJfw6md86O2a30OxodU6hoZTU8KGq8p1tMa55KD7DmHCM3F+MENOuxIjVjcmcFnY5WA5deHDBLHmH9uw==}
 
-  '@react-native-community/cli-platform-android@19.1.1':
-    resolution: {integrity: sha512-omEAcIYz22Lxi/WjYHkNaUMEKV+o60PL3DJE6Wz3c4bkuDfxICJ8JcPawT4fDMsBX7DYwnYf6/Lk/leqQmHzOw==}
+  '@react-native-community/cli-platform-android@19.1.0':
+    resolution: {integrity: sha512-8XSMoCDvjIOxyutSHOCdoYonfXWQUL+FtLu3Uqm6baXj5eInqDmc0ws4CbUgvg5sGTo484Lez8aTpQwThf3YTA==}
 
-  '@react-native-community/cli-platform-apple@19.1.1':
-    resolution: {integrity: sha512-nsJ/TlQ97Lcmz5dVZVSwYYQzJmK6q/9X31VTAFhUf94ShugF3zXjaNnOJieKYDJlXy4G0EnrEulX1gTt29ebyw==}
+  '@react-native-community/cli-platform-apple@19.1.0':
+    resolution: {integrity: sha512-7sEZbEfhJYRo2SSLC2qT+2x494/CoIm7h4/jmy9S+AJ5+ImZQBCkSqAkX9yO79eVtVH9FDJjdrso4rn1Ts4r1Q==}
 
-  '@react-native-community/cli-platform-ios@19.1.1':
-    resolution: {integrity: sha512-QHw/eBszq+62xUBorVqjgDYsVrZ5JAYJZkc6UKO327LnVn10OUB/bPGA/FzDWZdGB77pt0IalNP8nxyGOytMfg==}
+  '@react-native-community/cli-platform-ios@19.1.0':
+    resolution: {integrity: sha512-z85zYgFK62EX2HclMvLD3yaYWgW57SMT4Wv6O5wyFCWvv9LP97vm0aTORgmCdcqlov2RV7dxhLGQF6t2PTqGxA==}
 
-  '@react-native-community/cli-server-api@19.1.1':
-    resolution: {integrity: sha512-p0FFm82uPrtLZBWTD3bZ43mMBIV5mXwvGFYMcsfGiuMoS9SNbw4ImEFTG2IutVpr7Qb6NMjx6SbgYYMnTdZXmw==}
+  '@react-native-community/cli-server-api@19.1.0':
+    resolution: {integrity: sha512-YvFS8aTHfs+vnxEBFnBThkwzDm60B6OyajiYAn4c+m10vsEnExrurMWdmANMyKG0dM2LjADqkFvqUARtO/+1jQ==}
 
-  '@react-native-community/cli-tools@19.1.1':
-    resolution: {integrity: sha512-0yWOdrfgO7jVtYzhNcm9hTA1hqrD6haqDaesFq4d3YCmh8lkkTb61Q/kNIKQCUfaCTR/Qcc4mdwy6ObdXRoTIQ==}
+  '@react-native-community/cli-tools@19.1.0':
+    resolution: {integrity: sha512-JjTL5fj77v1urcHYcqnd4ZBTO52ORYzOqxMdDmJdadwh08iMguGfJ1rXNyybBSTyK/Ev60upo3sIm2A26nWydg==}
 
-  '@react-native-community/cli-types@19.1.1':
-    resolution: {integrity: sha512-rOGiYjeDM9tkYBEuK6TJrnxpMhmaId1Un8pjQJswz7W9w2Vb6+nnLfWja7X7VmDIvqIK5GhVobRHsmKCKIdDEA==}
+  '@react-native-community/cli-types@19.1.0':
+    resolution: {integrity: sha512-MEF7WBG17hQOusrphgEjbojqAoGkIwtYg0HhcJ+/MRLMQg6jty6K98gr6VYmjphXGkAPx1T/AN8/DmWmlw/atw==}
 
-  '@react-native-community/cli@19.1.1':
-    resolution: {integrity: sha512-H17sV83KPg2H2GCNuUSMM1ZM2sy6msVSmxrhJSycH8ua3i9Iixja8DeYtGIcJUzjdU/4U2eSDs6PjOSZUVn8CQ==}
+  '@react-native-community/cli@19.1.0':
+    resolution: {integrity: sha512-L9GL4YtgvoaS7DXcBuHZ1WtH+D2wV6G33THpxVmBEaJQp/vgRQg9Z4bb+9Mj/rBcATgbUu4Sd7H3xJE2qCd93w==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3103,13 +3106,13 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  '@types/react-dom@19.1.1':
-    resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
+  '@types/react-dom@19.1.0':
+    resolution: {integrity: sha512-21E2zejNNRtjG4hKIyJz4aWswGEcNFTgttA0bZIRGjj1HA/tbSUxIJnIcYbn98pwJck0cS1bsQhn6eaKqbcFWw==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.1':
-    resolution: {integrity: sha512-ePapxDL7qrgqSF67s0h9m412d9DbXyC1n59O2st+9rjuuamWsZuD2w55rqY12CbzsZ7uVXb5Nw0gEp9Z8MMutQ==}
+  '@types/react@19.1.0':
+    resolution: {integrity: sha512-UaicktuQI+9UKyA4njtDOGBD/67t8YEBt2xdfqu8+gP9hqPUPsiXlNPcpS2gVdjmis5GKPG3fCxbQLVgxsQZ8w==}
 
   '@types/retry@0.12.2':
     resolution: {integrity: sha512-XISRgDJ2Tc5q4TRqvgJtzsRkFYNJzZrhTdtMoGVBttwzzQJkPnS3WWTFc7kuDRoPtPakl+T+OfdEUjYJj7Jbow==}
@@ -7489,10 +7492,10 @@ packages:
   react-devtools-core@6.1.5:
     resolution: {integrity: sha512-ePrwPfxAnB+7hgnEr8vpKxL9cmnp7F322t8oqcPshbIQQhDKgFDW4tjhF2wjVbdXF9O/nyuy3sQWd9JGpiLPvA==}
 
-  react-dom@19.1.1:
-    resolution: {integrity: sha512-Dlq/5LAZgF0Gaz6yiqZCf6VCcZs1ghAJyrsu84Q/GT0gV+mCxbfmKNoGRKBYMJ8IEdGPqu49YWXD02GCknEDkw==}
+  react-dom@19.1.0:
+    resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
     peerDependencies:
-      react: ^19.1.1
+      react: ^19.1.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -7521,17 +7524,13 @@ packages:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
     engines: {node: '>=0.10.0'}
 
-  react-test-renderer@19.1.1:
-    resolution: {integrity: sha512-aGRXI+zcBTtg0diHofc7+Vy97nomBs9WHHFY1Csl3iV0x6xucjNYZZAkiVKGiNYUv23ecOex5jE67t8ZzqYObA==}
+  react-test-renderer@19.1.0:
+    resolution: {integrity: sha512-jXkSl3CpvPYEF+p/eGDLB4sPoDX8pKkYvRl9+rR8HxLY0X04vW7hCm1/0zHoUSjPZ3bDa+wXWNTDVIw/R8aDVw==}
     peerDependencies:
-      react: ^19.1.1
+      react: ^19.1.0
 
   react@19.1.0:
     resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
-    engines: {node: '>=0.10.0'}
-
-  react@19.1.1:
-    resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -10780,21 +10779,21 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/data-prefetch@0.17.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@module-federation/data-prefetch@0.17.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@module-federation/runtime': 0.17.1
       '@module-federation/sdk': 0.17.1
       fs-extra: 9.1.0
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
 
-  '@module-federation/data-prefetch@0.18.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@module-federation/data-prefetch@0.18.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@module-federation/runtime': 0.18.3
       '@module-federation/sdk': 0.18.3
       fs-extra: 9.1.0
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
 
   '@module-federation/dts-plugin@0.17.1(typescript@5.8.3)':
     dependencies:
@@ -10846,11 +10845,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@module-federation/enhanced@0.17.1(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack@5.101.3)':
+  '@module-federation/enhanced@0.17.1(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.101.3)':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 0.17.1
       '@module-federation/cli': 0.17.1(typescript@5.8.3)
-      '@module-federation/data-prefetch': 0.17.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@module-federation/data-prefetch': 0.17.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@module-federation/dts-plugin': 0.17.1(typescript@5.8.3)
       '@module-federation/error-codes': 0.17.1
       '@module-federation/inject-external-runtime-core-plugin': 0.17.1(@module-federation/runtime-tools@0.17.1)
@@ -10874,11 +10873,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@module-federation/enhanced@0.18.3(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack@5.101.3)':
+  '@module-federation/enhanced@0.18.3(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.101.3)':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 0.18.3
       '@module-federation/cli': 0.18.3(typescript@5.8.3)
-      '@module-federation/data-prefetch': 0.18.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@module-federation/data-prefetch': 0.18.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@module-federation/dts-plugin': 0.18.3(typescript@5.8.3)
       '@module-federation/error-codes': 0.18.3
       '@module-federation/inject-external-runtime-core-plugin': 0.18.3(@module-federation/runtime-tools@0.18.3)
@@ -10956,9 +10955,9 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/node@2.7.14(@rspack/core@1.4.11(@swc/helpers@0.5.17))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack@5.101.3)':
+  '@module-federation/node@2.7.14(@rspack/core@1.4.11(@swc/helpers@0.5.17))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.101.3)':
     dependencies:
-      '@module-federation/enhanced': 0.18.3(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack@5.101.3)
+      '@module-federation/enhanced': 0.18.3(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.101.3)
       '@module-federation/runtime': 0.18.3
       '@module-federation/sdk': 0.18.3
       btoa: 1.2.1
@@ -10966,9 +10965,9 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
       webpack: 5.101.3(@swc/core@1.5.29(@swc/helpers@0.5.17))(webpack-cli@5.1.4)
     optionalDependencies:
-      next: 15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0)
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
+      next: 15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
     transitivePeerDependencies:
       - '@rspack/core'
       - bufferutil
@@ -11454,10 +11453,10 @@ snapshots:
       - nx
       - supports-color
 
-  '@nx/module-federation@21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack-cli@5.1.4)':
+  '@nx/module-federation@21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack-cli@5.1.4)':
     dependencies:
-      '@module-federation/enhanced': 0.17.1(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack@5.101.3)
-      '@module-federation/node': 2.7.14(@rspack/core@1.4.11(@swc/helpers@0.5.17))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack@5.101.3)
+      '@module-federation/enhanced': 0.17.1(@rspack/core@1.4.11(@swc/helpers@0.5.17))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.101.3)
+      '@module-federation/node': 2.7.14(@rspack/core@1.4.11(@swc/helpers@0.5.17))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.101.3)
       '@module-federation/sdk': 0.17.1
       '@nx/devkit': 21.3.11(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/js': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
@@ -11514,13 +11513,13 @@ snapshots:
       - typescript
       - verdaccio
 
-  '@nx/next@21.3.11(@babel/core@7.28.3)(@babel/traverse@7.28.3)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)':
+  '@nx/next@21.3.11(@babel/core@7.28.3)(@babel/traverse@7.28.3)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)':
     dependencies:
       '@babel/plugin-proposal-decorators': 7.28.0(@babel/core@7.28.3)
       '@nx/devkit': 21.3.11(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/eslint': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/js': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
-      '@nx/react': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)
+      '@nx/react': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)
       '@nx/web': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/webpack': 21.3.11(@babel/traverse@7.28.3)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(typescript@5.8.3)(webpack-cli@5.1.4)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.8.3)
@@ -11528,7 +11527,7 @@ snapshots:
       copy-webpack-plugin: 10.2.4(webpack@5.101.3)
       file-loader: 6.2.0(webpack@5.101.3)
       ignore: 5.3.2
-      next: 15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0)
+      next: 15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0)
       semver: 7.7.2
       tslib: 2.8.1
       webpack-merge: 5.10.0
@@ -11642,12 +11641,12 @@ snapshots:
       - typescript
       - verdaccio
 
-  '@nx/react@21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)':
+  '@nx/react@21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack-cli@5.1.4)(webpack@5.101.3)':
     dependencies:
       '@nx/devkit': 21.3.11(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/eslint': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@zkochan/js-yaml@0.0.7)(eslint@9.33.0(jiti@2.5.1))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/js': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
-      '@nx/module-federation': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.8.3)(webpack-cli@5.1.4)
+      '@nx/module-federation': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack-cli@5.1.4)
       '@nx/web': 21.3.11(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.3.11(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.8.3)
       '@svgr/webpack': 8.1.0(typescript@5.8.3)
@@ -11908,30 +11907,30 @@ snapshots:
 
   '@protobufjs/utf8@1.1.0': {}
 
-  '@react-native-community/cli-clean@19.1.1':
+  '@react-native-community/cli-clean@19.1.0':
     dependencies:
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       execa: 5.1.1
       fast-glob: 3.3.3
 
-  '@react-native-community/cli-config-android@19.1.1':
+  '@react-native-community/cli-config-android@19.1.0':
     dependencies:
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       fast-glob: 3.3.3
       fast-xml-parser: 4.5.3
 
-  '@react-native-community/cli-config-apple@19.1.1':
+  '@react-native-community/cli-config-apple@19.1.0':
     dependencies:
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       execa: 5.1.1
       fast-glob: 3.3.3
 
-  '@react-native-community/cli-config@19.1.1(typescript@5.8.3)':
+  '@react-native-community/cli-config@19.1.0(typescript@5.8.3)':
     dependencies:
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       cosmiconfig: 9.0.0(typescript@5.8.3)
       deepmerge: 4.3.1
@@ -11940,13 +11939,13 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@react-native-community/cli-doctor@19.1.1(typescript@5.8.3)':
+  '@react-native-community/cli-doctor@19.1.0(typescript@5.8.3)':
     dependencies:
-      '@react-native-community/cli-config': 19.1.1(typescript@5.8.3)
-      '@react-native-community/cli-platform-android': 19.1.1
-      '@react-native-community/cli-platform-apple': 19.1.1
-      '@react-native-community/cli-platform-ios': 19.1.1
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-config': 19.1.0(typescript@5.8.3)
+      '@react-native-community/cli-platform-android': 19.1.0
+      '@react-native-community/cli-platform-apple': 19.1.0
+      '@react-native-community/cli-platform-ios': 19.1.0
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       command-exists: 1.2.9
       deepmerge: 4.3.1
@@ -11960,29 +11959,29 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@react-native-community/cli-platform-android@19.1.1':
+  '@react-native-community/cli-platform-android@19.1.0':
     dependencies:
-      '@react-native-community/cli-config-android': 19.1.1
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-config-android': 19.1.0
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       execa: 5.1.1
       logkitty: 0.7.1
 
-  '@react-native-community/cli-platform-apple@19.1.1':
+  '@react-native-community/cli-platform-apple@19.1.0':
     dependencies:
-      '@react-native-community/cli-config-apple': 19.1.1
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-config-apple': 19.1.0
+      '@react-native-community/cli-tools': 19.1.0
       chalk: 4.1.2
       execa: 5.1.1
       fast-xml-parser: 4.5.3
 
-  '@react-native-community/cli-platform-ios@19.1.1':
+  '@react-native-community/cli-platform-ios@19.1.0':
     dependencies:
-      '@react-native-community/cli-platform-apple': 19.1.1
+      '@react-native-community/cli-platform-apple': 19.1.0
 
-  '@react-native-community/cli-server-api@19.1.1':
+  '@react-native-community/cli-server-api@19.1.0':
     dependencies:
-      '@react-native-community/cli-tools': 19.1.1
+      '@react-native-community/cli-tools': 19.1.0
       body-parser: 1.20.3
       compression: 1.8.1
       connect: 3.7.0
@@ -11997,7 +11996,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@react-native-community/cli-tools@19.1.1':
+  '@react-native-community/cli-tools@19.1.0':
     dependencies:
       '@vscode/sudo-prompt': 9.3.1
       appdirsjs: 1.2.7
@@ -12010,18 +12009,18 @@ snapshots:
       prompts: 2.4.2
       semver: 7.7.2
 
-  '@react-native-community/cli-types@19.1.1':
+  '@react-native-community/cli-types@19.1.0':
     dependencies:
       joi: 17.13.3
 
-  '@react-native-community/cli@19.1.1(typescript@5.8.3)':
+  '@react-native-community/cli@19.1.0(typescript@5.8.3)':
     dependencies:
-      '@react-native-community/cli-clean': 19.1.1
-      '@react-native-community/cli-config': 19.1.1(typescript@5.8.3)
-      '@react-native-community/cli-doctor': 19.1.1(typescript@5.8.3)
-      '@react-native-community/cli-server-api': 19.1.1
-      '@react-native-community/cli-tools': 19.1.1
-      '@react-native-community/cli-types': 19.1.1
+      '@react-native-community/cli-clean': 19.1.0
+      '@react-native-community/cli-config': 19.1.0(typescript@5.8.3)
+      '@react-native-community/cli-doctor': 19.1.0(typescript@5.8.3)
+      '@react-native-community/cli-server-api': 19.1.0
+      '@react-native-community/cli-tools': 19.1.0
+      '@react-native-community/cli-types': 19.1.0
       chalk: 4.1.2
       commander: 9.5.0
       deepmerge: 4.3.1
@@ -12106,7 +12105,7 @@ snapshots:
       nullthrows: 1.1.1
       yargs: 17.7.2
 
-  '@react-native/community-cli-plugin@0.80.2(@react-native-community/cli@19.1.1(typescript@5.8.3))':
+  '@react-native/community-cli-plugin@0.80.2(@react-native-community/cli@19.1.0(typescript@5.8.3))':
     dependencies:
       '@react-native/dev-middleware': 0.80.2
       chalk: 4.1.2
@@ -12117,7 +12116,7 @@ snapshots:
       metro-core: 0.82.5
       semver: 7.7.2
     optionalDependencies:
-      '@react-native-community/cli': 19.1.1(typescript@5.8.3)
+      '@react-native-community/cli': 19.1.0(typescript@5.8.3)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -12191,34 +12190,25 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@react-native/new-app-screen@0.80.2(@types/react@19.1.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react@19.1.0)':
+  '@react-native/new-app-screen@0.80.2(@types/react@19.1.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0)
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)
     optionalDependencies:
-      '@types/react': 19.1.1
+      '@types/react': 19.1.0
 
   '@react-native/normalize-colors@0.80.2': {}
 
   '@react-native/typescript-config@0.80.2': {}
 
-  '@react-native/virtualized-lists@0.80.2(@types/react@19.1.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react@19.1.0)':
+  '@react-native/virtualized-lists@0.80.2(@types/react@19.1.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react@19.1.0)':
     dependencies:
       invariant: 2.2.4
       nullthrows: 1.1.1
       react: 19.1.0
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0)
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)
     optionalDependencies:
-      '@types/react': 19.1.1
-
-  '@react-native/virtualized-lists@0.80.2(@types/react@19.1.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))(react@19.1.1)':
-    dependencies:
-      invariant: 2.2.4
-      nullthrows: 1.1.1
-      react: 19.1.1
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1)
-    optionalDependencies:
-      '@types/react': 19.1.1
+      '@types/react': 19.1.0
 
   '@rspack/binding-darwin-arm64@1.4.11':
     optional: true
@@ -12517,61 +12507,38 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-native@5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react-test-renderer@19.1.1(react@19.1.0))(react@19.1.0)':
+  '@testing-library/jest-native@5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       chalk: 4.1.2
       jest-diff: 29.7.0
       jest-matcher-utils: 29.7.0
       pretty-format: 29.7.0
       react: 19.1.0
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0)
-      react-test-renderer: 19.1.1(react@19.1.0)
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)
+      react-test-renderer: 19.1.0(react@19.1.0)
       redent: 3.0.0
 
-  '@testing-library/jest-native@5.4.3(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))(react-test-renderer@19.1.1(react@19.1.1))(react@19.1.1)':
-    dependencies:
-      chalk: 4.1.2
-      jest-diff: 29.7.0
-      jest-matcher-utils: 29.7.0
-      pretty-format: 29.7.0
-      react: 19.1.1
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1)
-      react-test-renderer: 19.1.1(react@19.1.1)
-      redent: 3.0.0
-
-  '@testing-library/react-native@13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react-test-renderer@19.1.1(react@19.1.0))(react@19.1.0)':
+  '@testing-library/react-native@13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react-test-renderer@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       jest-matcher-utils: 30.0.5
       picocolors: 1.1.1
       pretty-format: 30.0.5
       react: 19.1.0
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0)
-      react-test-renderer: 19.1.1(react@19.1.0)
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)
+      react-test-renderer: 19.1.0(react@19.1.0)
       redent: 3.0.0
     optionalDependencies:
       jest: 30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))
 
-  '@testing-library/react-native@13.3.1(jest@30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3)))(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))(react-test-renderer@19.1.1(react@19.1.1))(react@19.1.1)':
-    dependencies:
-      jest-matcher-utils: 30.0.5
-      picocolors: 1.1.1
-      pretty-format: 30.0.5
-      react: 19.1.1
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1)
-      react-test-renderer: 19.1.1(react@19.1.1)
-      redent: 3.0.0
-    optionalDependencies:
-      jest: 30.0.5(@types/node@18.16.9)(babel-plugin-macros@3.1.0)(ts-node@10.9.1(@swc/core@1.5.29(@swc/helpers@0.5.17))(@types/node@18.16.9)(typescript@5.8.3))
-
-  '@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@19.1.1(@types/react@19.1.1))(@types/react@19.1.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@19.1.0(@types/react@19.1.0))(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@babel/runtime': 7.28.3
       '@testing-library/dom': 10.4.0
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
-      '@types/react': 19.1.1
-      '@types/react-dom': 19.1.1(@types/react@19.1.1)
+      '@types/react': 19.1.0
+      '@types/react-dom': 19.1.0(@types/react@19.1.0)
 
   '@tokenizer/inflate@0.2.7':
     dependencies:
@@ -12727,11 +12694,11 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react-dom@19.1.1(@types/react@19.1.1)':
+  '@types/react-dom@19.1.0(@types/react@19.1.0)':
     dependencies:
-      '@types/react': 19.1.1
+      '@types/react': 19.1.0
 
-  '@types/react@19.1.1':
+  '@types/react@19.1.0':
     dependencies:
       csstype: 3.1.3
 
@@ -16279,9 +16246,9 @@ snapshots:
     optionalDependencies:
       jest-resolve: 30.0.5
 
-  jest-react-native@18.0.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1)):
+  jest-react-native@18.0.0(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)):
     dependencies:
-      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1)
+      react-native: 0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0)
 
   jest-regex-util@29.6.3: {}
 
@@ -17140,7 +17107,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.90.0):
+  next@15.2.5(@babel/core@7.28.3)(@playwright/test@1.55.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.90.0):
     dependencies:
       '@next/env': 15.2.5
       '@swc/counter': 0.1.3
@@ -17148,9 +17115,9 @@ snapshots:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001737
       postcss: 8.4.31
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
-      styled-jsx: 5.1.6(@babel/core@7.28.3)(babel-plugin-macros@3.1.0)(react@19.1.1)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      styled-jsx: 5.1.6(@babel/core@7.28.3)(babel-plugin-macros@3.1.0)(react@19.1.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.2.5
       '@next/swc-darwin-x64': 15.2.5
@@ -17922,9 +17889,9 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  react-dom@19.1.1(react@19.1.1):
+  react-dom@19.1.0(react@19.1.0):
     dependencies:
-      react: 19.1.1
+      react: 19.1.0
       scheduler: 0.26.0
 
   react-is@16.13.1: {}
@@ -17935,16 +17902,16 @@ snapshots:
 
   react-is@19.1.1: {}
 
-  react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0):
+  react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0):
     dependencies:
       '@jest/create-cache-key-function': 29.7.0
       '@react-native/assets-registry': 0.80.2
       '@react-native/codegen': 0.80.2(@babel/core@7.28.3)
-      '@react-native/community-cli-plugin': 0.80.2(@react-native-community/cli@19.1.1(typescript@5.8.3))
+      '@react-native/community-cli-plugin': 0.80.2(@react-native-community/cli@19.1.0(typescript@5.8.3))
       '@react-native/gradle-plugin': 0.80.2
       '@react-native/js-polyfills': 0.80.2
       '@react-native/normalize-colors': 0.80.2
-      '@react-native/virtualized-lists': 0.80.2(@types/react@19.1.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.0))(react@19.1.0)
+      '@react-native/virtualized-lists': 0.80.2(@types/react@19.1.0)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.0(typescript@5.8.3))(@types/react@19.1.0)(react@19.1.0))(react@19.1.0)
       abort-controller: 3.0.0
       anser: 1.4.10
       ansi-regex: 5.0.1
@@ -17974,54 +17941,7 @@ snapshots:
       ws: 6.2.3
       yargs: 17.7.2
     optionalDependencies:
-      '@types/react': 19.1.1
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@react-native-community/cli'
-      - bufferutil
-      - supports-color
-      - utf-8-validate
-
-  react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1):
-    dependencies:
-      '@jest/create-cache-key-function': 29.7.0
-      '@react-native/assets-registry': 0.80.2
-      '@react-native/codegen': 0.80.2(@babel/core@7.28.3)
-      '@react-native/community-cli-plugin': 0.80.2(@react-native-community/cli@19.1.1(typescript@5.8.3))
-      '@react-native/gradle-plugin': 0.80.2
-      '@react-native/js-polyfills': 0.80.2
-      '@react-native/normalize-colors': 0.80.2
-      '@react-native/virtualized-lists': 0.80.2(@types/react@19.1.1)(react-native@0.80.2(@babel/core@7.28.3)(@react-native-community/cli@19.1.1(typescript@5.8.3))(@types/react@19.1.1)(react@19.1.1))(react@19.1.1)
-      abort-controller: 3.0.0
-      anser: 1.4.10
-      ansi-regex: 5.0.1
-      babel-jest: 29.7.0(@babel/core@7.28.3)
-      babel-plugin-syntax-hermes-parser: 0.28.1
-      base64-js: 1.5.1
-      chalk: 4.1.2
-      commander: 12.1.0
-      flow-enums-runtime: 0.0.6
-      glob: 7.2.3
-      invariant: 2.2.4
-      jest-environment-node: 29.7.0
-      memoize-one: 5.2.1
-      metro-runtime: 0.82.5
-      metro-source-map: 0.82.5
-      nullthrows: 1.1.1
-      pretty-format: 29.7.0
-      promise: 8.3.0
-      react: 19.1.1
-      react-devtools-core: 6.1.5
-      react-refresh: 0.14.2
-      regenerator-runtime: 0.13.11
-      scheduler: 0.26.0
-      semver: 7.7.2
-      stacktrace-parser: 0.1.11
-      whatwg-fetch: 3.6.20
-      ws: 6.2.3
-      yargs: 17.7.2
-    optionalDependencies:
-      '@types/react': 19.1.1
+      '@types/react': 19.1.0
     transitivePeerDependencies:
       - '@babel/core'
       - '@react-native-community/cli'
@@ -18031,21 +17951,13 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-test-renderer@19.1.1(react@19.1.0):
+  react-test-renderer@19.1.0(react@19.1.0):
     dependencies:
       react: 19.1.0
       react-is: 19.1.1
       scheduler: 0.26.0
 
-  react-test-renderer@19.1.1(react@19.1.1):
-    dependencies:
-      react: 19.1.1
-      react-is: 19.1.1
-      scheduler: 0.26.0
-
   react@19.1.0: {}
-
-  react@19.1.1: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -18828,10 +18740,10 @@ snapshots:
     dependencies:
       webpack: 5.99.9(@swc/core@1.5.29(@swc/helpers@0.5.17))(webpack-cli@5.1.4)
 
-  styled-jsx@5.1.6(@babel/core@7.28.3)(babel-plugin-macros@3.1.0)(react@19.1.1):
+  styled-jsx@5.1.6(@babel/core@7.28.3)(babel-plugin-macros@3.1.0)(react@19.1.0):
     dependencies:
       client-only: 0.0.1
-      react: 19.1.1
+      react: 19.1.0
     optionalDependencies:
       '@babel/core': 7.28.3
       babel-plugin-macros: 3.1.0
